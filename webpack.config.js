@@ -29,7 +29,7 @@ const common = {
             loader: 'css-loader',
             options: {
               url: false,
-              minimize: isProd,
+              // minimize: isProd,
               sourceMap: true,
             },
           },
