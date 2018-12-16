@@ -1,7 +1,7 @@
 $img: '../assets/images/';
 
-$white: #ffffff;
-$black: #000000;
+$white: #fff;
+$black: #000;
 
 @function responsive($value1, $value2, $width1: 320, $width2: 1920) {
   $x1: $width1;

@@ -29,6 +29,7 @@ const common = {
             loader: 'css-loader',
             options: {
               url: false,
+              // https://github.com/webpack-contrib/css-loader/issues/863
               // minimize: isProd,
               sourceMap: true,
             },
