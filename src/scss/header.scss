@@ -1,5 +1,5 @@
 .header {
-  padding: 20px;
+  padding: 30px;
 
   .wrapper {
     max-width: 800px;
@@ -9,11 +9,30 @@
     justify-content: space-between;
   }
 
+  .product-link {
+    display: none;
+
+    @media (min-width: 1000px) {
+      display: block;
+    }
+  }
+
   h1 {
     margin: 0;
 
     img {
       height: 60px;
+    }
+  }
+
+  .cover {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 50px;
+
+    img {
+      margin-top: 10px;
+      width: 100%;
     }
   }
 }
