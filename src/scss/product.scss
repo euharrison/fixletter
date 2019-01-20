@@ -1,12 +1,9 @@
 .product {
   padding: 20px;
+  max-width: 800px;
+  margin: auto;
 
-  .text {
-    max-width: 800px;
-    margin: auto;
-  }
-
-  img {
+  .image img {
     width: 100%;
   }
 }
