@@ -1,9 +1,51 @@
 .product {
-  padding: 30px;
+  padding: 24px;
   max-width: 800px;
-  margin: auto;
+  margin: 24px auto 0;
 
   .image img {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+  }
+
+  .card {
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: calc(50% - 50px);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgba($blue, 0.1);
+
+    .highlight {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    &.gray {
+      background-color: $light-gray;
+    }
+  }
+
+  .specs {
+    @extend .card;
+    background-color: $light-gray;
+    width: calc(100% - 40px);
   }
 }

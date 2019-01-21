@@ -1,0 +1,23 @@
+.cover {
+  padding: 30px;
+  text-align: center;
+
+  .wrapper {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 28px;
+    margin: 0 0 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .image {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
